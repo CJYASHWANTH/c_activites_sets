@@ -3,9 +3,9 @@
  int a, b;
  int main()
  {
-    printf("Enter the first number: ");
+    printf("Enter the first number/n: ");
     scanf("%d", &a);
-    printf("Enter the second number: ");
+    printf("Enter the second number/n: ");
     scanf("%d", &b);
     printf("result is %d", a+b);
     return 0;
