@@ -1,0 +1,15 @@
+base) yashwanthprakash@Yashwanths-MacBook-Air set01 % gcc problem04.c
+(base) yashwanthprakash@Yashwanths-MacBook-Air set01 % lldb ./problem04
+(lldb) target create "./problem04"
+Current executable set to '/Users/yashwanthprakash/Desktop/SEM 2/TERM 1/PSC/c_activites_sets/set01/problem04' (x86_64).
+(lldb) log enable lldb default -f problem04.log
+(lldb) b main
+Breakpoint 1: where = problem04`main + 15 at problem04.c:20:11, address = 0x0000000100003f1f
+(lldb) r
+Process 6299 launched: '/Users/yashwanthprakash/Desktop/SEM 2/TERM 1/PSC/c_activites_sets/set01/problem04' (x86_64)
+Process 6299 stopped
+* thread #1, queue = 'com.apple.main-thread', stop reason = breakpoint 1.1
+    frame #0: 0x0000000100003f1f problem04`main at problem04.c:20:11
+Target 0: (problem04) stopped.
+(lldb) q
+Quitting LLDB will kill one or more processes. Do you really want to proceed: [Y/n] Y
