@@ -12,11 +12,9 @@
 
 
  Added location: 1.1: 
-  module = /Users/yashwanthprakash/Desktop/SEM 2/TERM 1/PSC/c_activites_sets/set01/problem01
-  compile unit = problem01.c
-  function = main
-  location = /Users/yashwanthprakash/Desktop/SEM 1/c_activites_sets/set01/problem01.c:6:5
-  address = problem01[0x0000000100003f6f]
+  module = /Users/yashwanthprakash/Desktop/SEM 2/TERM 1/PSC/c_activites_sets/set01/problem09
+  symbol = main
+  address = problem09[0x0000000100003ef0]
   resolved = false
   hardware = false
   hit count = 0   
@@ -29,35 +27,35 @@
  HandleCommand, (revised) command_string: 'process launch --'
  HandleCommand, wants_raw_input:'False'
  HandleCommand, command line after removing command name(s): '--'
- Target::Launch() called for /Users/yashwanthprakash/Desktop/SEM 2/TERM 1/PSC/c_activites_sets/set01/problem01
+ Target::Launch() called for /Users/yashwanthprakash/Desktop/SEM 2/TERM 1/PSC/c_activites_sets/set01/problem09
  Target::Launch the process instance doesn't currently exist.
  have platform=true, platform_sp->IsHost()=true, default_to_use_pty=true
  at least one of stdin/stdout/stderr was not set, evaluating default handling
  target stdin='(empty)', target stdout='(empty)', stderr='(empty)'
  Generating a pty to use for stdin/out/err
  Target::Launch asking the platform to debug the process
- Host::StartMonitoringChildProcess (callback, pid=4969, monitor_signals=0) source = 0x7f842d7c1e50
+ Host::StartMonitoringChildProcess (callback, pid=8036, monitor_signals=0) source = 0x7f99867a9270
 
  Process::SetPublicState (state = attaching, restarted = 0)
- Host::StartMonitoringChildProcess (callback, pid=4970, monitor_signals=0) source = 0x7f842d7c7410
+ Host::StartMonitoringChildProcess (callback, pid=8037, monitor_signals=0) source = 0x7f99892c1b50
 
  thread created
- Process::AttachCompletionHandler::AttachCompletionHandler process=0x7f8430620418, exec_count=0
+ Process::AttachCompletionHandler::AttachCompletionHandler process=0x7f9986d08e18, exec_count=0
  Process::ControlPrivateStateThread (signal = 4)
  Sending control event of type: 4.
  thread created
- Process::RunPrivateStateThread (arg = 0x7f8430620418, pid = 4969) thread starting...
+ Process::RunPrivateStateThread (arg = 0x7f9986d08e18, pid = 8036) thread starting...
  timeout = <infinite>, event_sp)...
- Process::RunPrivateStateThread (arg = 0x7f8430620418, pid = 4969) got a control event: 4
- timeout = <infinite>, event_sp)...
- timeout = <infinite>
+ Process::RunPrivateStateThread (arg = 0x7f9986d08e18, pid = 8036) got a control event: 4
  timeout = <infinite>, event_sp)...
  thread created
+ timeout = <infinite>
+ timeout = <infinite>, event_sp)...
  Process::SetPrivateState (stopped)
  Process::SetPrivateState (stopped) stop_id = 1
  Process::AttachCompletionHandler::PerformAction called with state stopped (5)
- Discarding thread plans for thread (tid = 0x18471, force 1)
- Thread::PushPlan(0x0x7f842d7c2178): "Base thread plan.", tid = 0x18471.
+ Discarding thread plans for thread (tid = 0x1d230, force 1)
+ Thread::PushPlan(0x0x7f99892bb498): "Base thread plan.", tid = 0x1d230.
  Process::AttachCompletionHandler::PerformAction state stopped: no more execs expected to start, continuing with attach
  Process::CompleteAttach()
  set architecture to x86_64 (x86_64-apple-macosx12.0.0)
@@ -65,7 +63,7 @@
  DynamicLoaderDarwin::UseDYLDSPI: Use new DynamicLoader plugin
  DynamicLoaderDarwin::UseDYLDSPI: Use new DynamicLoader plugin
  Unloaded:
- DynamicLoaderDarwin::UnloadAllImages[0] 5576F56B-E150-302D-B7C4-7ACB7D33A1BB (x86_64) "/Users/yashwanthprakash/Desktop/SEM 2/TERM 1/PSC/c_activites_sets/set01/problem01"
+ DynamicLoaderDarwin::UnloadAllImages[0] 53EAAB77-849C-3F89-9DE6-7153B1AAC154 (x86_64) "/Users/yashwanthprakash/Desktop/SEM 2/TERM 1/PSC/c_activites_sets/set01/problem09"
  DynamicLoaderDarwin::UnloadAllImages[1] CBCD7D35-E8E9-3E64-B80B-B254B042AFBF (x86_64) "/usr/lib/dyld"
  DynamicLoaderDarwin::UnloadAllImages[2] 9B28AFCF-A3B3-339D-AE95-212A38769361 (x86_64) "/usr/lib/libSystem.B.dylib"
  DynamicLoaderDarwin::UnloadAllImages[3] 7DC8642E-135E-3AA2-87FF-3BFC9729A684 (x86_64) "/usr/lib/system/libcache.dylib"
@@ -112,7 +110,7 @@
 
  Initial module fetch:  Adding 2 modules.
 
- Found executable module: /Users/yashwanthprakash/Desktop/SEM 2/TERM 1/PSC/c_activites_sets/set01/problem01
+ Found executable module: /Users/yashwanthprakash/Desktop/SEM 2/TERM 1/PSC/c_activites_sets/set01/problem09
  Found dyld module: /usr/lib/dyld
  Adding new image at address=0x0000000100010000.
  address=0x0000000100010000 modtime=0x00000000 uuid=CBCD7D35-E8E9-3E64-B80B-B254B042AFBF path='/usr/lib/dyld'
@@ -121,80 +119,80 @@
  		          __DATA [0x0000000100090000 - 0x0000000100094000) slide = 0x100010000
  		      __LINKEDIT [0x0000000100094000 - 0x00000001000c8000) slide = 0x100010000
  Adding new image at address=0x0000000100000000.
- address=0x0000000100000000 modtime=0x00000000 uuid=5576F56B-E150-302D-B7C4-7ACB7D33A1BB path='/Users/yashwanthprakash/Desktop/SEM 2/TERM 1/PSC/c_activites_sets/set01/problem01'
+ address=0x0000000100000000 modtime=0x00000000 uuid=53EAAB77-849C-3F89-9DE6-7153B1AAC154 path='/Users/yashwanthprakash/Desktop/SEM 2/TERM 1/PSC/c_activites_sets/set01/problem09'
  		      __PAGEZERO [0x0000000000000000 - 0x0000000100000000)
  		          __TEXT [0x0000000100000000 - 0x0000000100004000)
  		    __DATA_CONST [0x0000000100004000 - 0x0000000100008000)
  		          __DATA [0x0000000100008000 - 0x000000010000c000)
  		      __LINKEDIT [0x000000010000c000 - 0x0000000100010000)
  DynamicLoaderDarwin::ModulesDidLoad[0] CBCD7D35-E8E9-3E64-B80B-B254B042AFBF (x86_64) "/usr/lib/dyld"
- DynamicLoaderDarwin::ModulesDidLoad[1] 5576F56B-E150-302D-B7C4-7ACB7D33A1BB (x86_64) "/Users/yashwanthprakash/Desktop/SEM 2/TERM 1/PSC/c_activites_sets/set01/problem01"
+ DynamicLoaderDarwin::ModulesDidLoad[1] 53EAAB77-849C-3F89-9DE6-7153B1AAC154 (x86_64) "/Users/yashwanthprakash/Desktop/SEM 2/TERM 1/PSC/c_activites_sets/set01/problem09"
  Breakpoint::ModulesChanged: num_modules: 2 load: 1 delete_locations: 0
 
- GDBRemoteCommunicationClient::SendGDBStoppointTypePacket() add at addr = 0x100003f6f
+ GDBRemoteCommunicationClient::SendGDBStoppointTypePacket() add at addr = 0x100003ef0
  Target::AddBreakpoint (internal = yes) => break_id = -1: name = '_dyld_debugger_notification', language = c, module = dyld
 
 
  GDBRemoteCommunicationClient::SendGDBStoppointTypePacket() add at addr = 0x100011a88
- after DynamicLoader::DidAttach(), target executable is /Users/yashwanthprakash/Desktop/SEM 2/TERM 1/PSC/c_activites_sets/set01/problem01 (using macos-dyld plugin)
- after SystemRuntime::DidAttach(), target executable is /Users/yashwanthprakash/Desktop/SEM 2/TERM 1/PSC/c_activites_sets/set01/problem01 (using systemruntime-macosx plugin)
+ after DynamicLoader::DidAttach(), target executable is /Users/yashwanthprakash/Desktop/SEM 2/TERM 1/PSC/c_activites_sets/set01/problem09 (using macos-dyld plugin)
+ after SystemRuntime::DidAttach(), target executable is /Users/yashwanthprakash/Desktop/SEM 2/TERM 1/PSC/c_activites_sets/set01/problem09 (using systemruntime-macosx plugin)
  Ran next event action, result was 0.
- 0x7f842d7c2178: tid = 0x18471: stop info = <NULL> (stop_id = 1)
- 0x7f842d7c2178: tid = 0x18471: stop info = signal SIGSTOP (stop_id = 1)
+ 0x7f99892bb498: tid = 0x1d230: stop info = <NULL> (stop_id = 1)
+ 0x7f99892bb498: tid = 0x1d230: stop info = signal SIGSTOP (stop_id = 1)
  
  ThreadList::ShouldStop: 1 threads, 1 unsuspended threads
- Thread::ShouldStop(0x7f842d7c2178) for tid = 0x18471 0x18471, pc = 0x0000000100014ae0
+ Thread::ShouldStop(0x7f99892bb498) for tid = 0x1d230 0x1d230, pc = 0x0000000100014ae0
  ^^^^^^^^ Thread::ShouldStop Begin ^^^^^^^^
  Plan stack initial state:
-  thread #1: tid = 0x18471:
+  thread #1: tid = 0x1d230:
     Active plan stack:
       Element 0: Base thread plan.
 
- Base plan discarding thread plans for thread tid = 0x18471 (signal: signal SIGSTOP)
- Discarding thread plans for thread (tid = 0x18471, force 0)
+ Base plan discarding thread plans for thread tid = 0x1d230 (signal: signal SIGSTOP)
+ Discarding thread plans for thread (tid = 0x1d230, force 0)
  Base plan says should stop: 1.
  Plan stack final state:
-  thread #1: tid = 0x18471:
+  thread #1: tid = 0x1d230:
     Active plan stack:
       Element 0: Base thread plan.
 
  vvvvvvvv Thread::ShouldStop End (returning 1) vvvvvvvv
  ThreadList::ShouldStop overall should_stop = 1
  Frame #0 not recognized
- Process::ShouldBroadcastEvent (0x7f842e24fdd0) => new state: stopped, last broadcast state: stopped - YES
- Process::HandlePrivateEvent (pid = 4969) broadcasting new state stopped (old state attaching) to hijacked
+ Process::ShouldBroadcastEvent (0x7f9987184fc0) => new state: stopped, last broadcast state: stopped - YES
+ Process::HandlePrivateEvent (pid = 8036) broadcasting new state stopped (old state attaching) to hijacked
  timeout = <infinite>, event_sp)...
  Process::SetPublicState (state = stopped, restarted = 0)
  timeout = <infinite>, event_sp) => stopped
  Process::PrivateResume() m_stop_id = 1, public state: stopped private state: stopped
- WillResume Thread #1 (0x0x7f842d7c2178): tid = 0x18471, pc = 0x100014ae0, sp = 0x7ff7bfeff3a0, fp = 0x00000000, plan = 'base plan', state = running, stop others = 0
+ WillResume Thread #1 (0x0x7f99892bb498): tid = 0x1d230, pc = 0x100014ae0, sp = 0x7ff7bfeff3a0, fp = 0x00000000, plan = 'base plan', state = running, stop others = 0
  Process::SetPrivateState (running)
- Current Plan for thread 1(0x7f842d7c2178) (0x18471, running): base plan being asked whether we should report run.
- Process::ShouldBroadcastEvent (0x7f842e780b30) => new state: running, last broadcast state: running - YES
- Process thinks the process has resumed.
- Process::HandlePrivateEvent (pid = 4969) broadcasting new state running (old state stopped) to public
+ Current Plan for thread 1(0x7f99892bb498) (0x1d230, running): base plan being asked whether we should report run.
+ Process::ShouldBroadcastEvent (0x7f9987315680) => new state: running, last broadcast state: running - YES
+ Process::HandlePrivateEvent (pid = 8036) broadcasting new state running (old state stopped) to public
  Process::PushProcessIOHandler pushing IO handler
+ Process thinks the process has resumed.
  Process::HandlePrivateEvent updated m_iohandler_sync to 1
- waited from m_iohandler_sync to change from 0. New value is 1.
  timeout = <infinite>, event_sp)...
  Process::SetPublicState (state = running, restarted = 0)
+ waited from m_iohandler_sync to change from 0. New value is 1.
  HandleCommand, command succeeded
  Process::SetPrivateState (stopped)
  Process::SetPrivateState (stopped) stop_id = 2
- 0x7f842d7c2178: tid = 0x18471: stop info = <NULL> (stop_id = 2)
- 0x7f842d7c2178: tid = 0x18471: stop info = shared-library-event (stop_id = 2)
+ 0x7f99892bb498: tid = 0x1d230: stop info = <NULL> (stop_id = 2)
+ 0x7f99892bb498: tid = 0x1d230: stop info = shared-library-event (stop_id = 2)
  
  ThreadList::ShouldStop: 1 threads, 1 unsuspended threads
- Thread::ShouldStop(0x7f842d7c2178) for tid = 0x18471 0x18471, pc = 0x0000000100011a88
+ Thread::ShouldStop(0x7f99892bb498) for tid = 0x1d230 0x1d230, pc = 0x0000000100011a88
  ^^^^^^^^ Thread::ShouldStop Begin ^^^^^^^^
  Plan stack initial state:
-  thread #1: tid = 0x18471:
+  thread #1: tid = 0x1d230:
     Active plan stack:
       Element 0: Base thread plan.
 
  Adding 1 modules.
  Adding new image at address=0x0000000100000000.
- address=0x0000000100000000 modtime=0x00000000 uuid=5576F56B-E150-302D-B7C4-7ACB7D33A1BB path='/Users/yashwanthprakash/Desktop/SEM 2/TERM 1/PSC/c_activites_sets/set01/problem01'
+ address=0x0000000100000000 modtime=0x00000000 uuid=53EAAB77-849C-3F89-9DE6-7153B1AAC154 path='/Users/yashwanthprakash/Desktop/SEM 2/TERM 1/PSC/c_activites_sets/set01/problem09'
  		      __PAGEZERO [0x0000000000000000 - 0x0000000100000000)
  		          __TEXT [0x0000000100000000 - 0x0000000100004000)
  		    __DATA_CONST [0x0000000100004000 - 0x0000000100008000)
@@ -212,32 +210,32 @@
  StopInfo::ShouldStop async callback says we should not stop, returning ShouldStop of false.
  ThreadList::ShouldStop overall should_stop = 0
  ThreadList::ShouldReportStop 1 threads
- Thread::ShouldReportStop() tid = 0x18471: returning vote 0 for current plan
+ Thread::ShouldReportStop() tid = 0x1d230: returning vote 0 for current plan
  Returning no opinion
  Process::ShouldBroadcastEvent: should_resume: 1 state: stopped was_restarted: 0 report_stop_vote: 0.
- Process::ShouldBroadcastEvent (0x7f842e77c7e0) Restarting process from state: stopped
+ Process::ShouldBroadcastEvent (0x7f99892bf690) Restarting process from state: stopped
  Process::PrivateResume() m_stop_id = 2, public state: running private state: stopped
- Thread::PushPlan(0x0x7f842d7c2178): "Single stepping past breakpoint site 2 at 0x100011a88", tid = 0x18471.
- WillResume Thread #1 (0x0x7f842d7c2178): tid = 0x18471, pc = 0x100011a88, sp = 0x7ff7bfefe918, fp = 0x7ff7bfefe9d0, plan = 'Step over breakpoint trap', state = stepping, stop others = 1
+ Thread::PushPlan(0x0x7f99892bb498): "Single stepping past breakpoint site 2 at 0x100011a88", tid = 0x1d230.
+ WillResume Thread #1 (0x0x7f99892bb498): tid = 0x1d230, pc = 0x100011a88, sp = 0x7ff7bfefe918, fp = 0x7ff7bfefe9d0, plan = 'Step over breakpoint trap', state = stepping, stop others = 1
  GDBRemoteCommunicationClient::SendGDBStoppointTypePacket() remove at addr = 0x100011a88
  Process::SetPrivateState (running)
  Process thinks the process has resumed.
- Process::ShouldBroadcastEvent (0x7f842e77c7e0) => new state: stopped, last broadcast state: running - NO
- Process::HandlePrivateEvent (pid = 4969) suppressing state stopped (old state running): should_broadcast == false
+ Process::ShouldBroadcastEvent (0x7f99892bf690) => new state: stopped, last broadcast state: running - NO
+ Process::HandlePrivateEvent (pid = 8036) suppressing state stopped (old state running): should_broadcast == false
  timeout = <infinite>, event_sp)...
- Process::ShouldBroadcastEvent (0x7f842d7c2c90) => new state: running, last broadcast state: running - NO
- Process::HandlePrivateEvent (pid = 4969) suppressing state running (old state running): should_broadcast == false
+ Process::ShouldBroadcastEvent (0x7f9987188cc0) => new state: running, last broadcast state: running - NO
+ Process::HandlePrivateEvent (pid = 8036) suppressing state running (old state running): should_broadcast == false
  timeout = <infinite>, event_sp)...
  Process::SetPrivateState (stopped)
  Process::SetPrivateState (stopped) stop_id = 3
- 0x7f842d7c2178: tid = 0x18471: stop info = <NULL> (stop_id = 3)
- 0x7f842d7c2178: tid = 0x18471: stop info = trace (stop_id = 3)
+ 0x7f99892bb498: tid = 0x1d230: stop info = <NULL> (stop_id = 3)
+ 0x7f99892bb498: tid = 0x1d230: stop info = trace (stop_id = 3)
  
  ThreadList::ShouldStop: 1 threads, 1 unsuspended threads
- Thread::ShouldStop(0x7f842d7c2178) for tid = 0x18471 0x18471, pc = 0x0000000100011a89
+ Thread::ShouldStop(0x7f99892bb498) for tid = 0x1d230 0x1d230, pc = 0x0000000100011a89
  ^^^^^^^^ Thread::ShouldStop Begin ^^^^^^^^
  Plan stack initial state:
-  thread #1: tid = 0x18471:
+  thread #1: tid = 0x1d230:
     Active plan stack:
       Element 0: Base thread plan.
       Element 1: Single stepping past breakpoint site 2 at 0x100011a88
@@ -247,9 +245,9 @@
  Completed step over breakpoint plan.
  GDBRemoteCommunicationClient::SendGDBStoppointTypePacket() add at addr = 0x100011a88
  Plan Step over breakpoint trap auto-continue: true.
- Popping plan: "Step over breakpoint trap", tid = 0x18471.
+ Popping plan: "Step over breakpoint trap", tid = 0x1d230.
  Plan stack final state:
-  thread #1: tid = 0x18471:
+  thread #1: tid = 0x1d230:
     Active plan stack:
       Element 0: Base thread plan.
     Completed plan stack:
@@ -258,31 +256,31 @@
  vvvvvvvv Thread::ShouldStop End (returning 0) vvvvvvvv
  ThreadList::ShouldStop overall should_stop = 0
  ThreadList::ShouldReportStop 1 threads
- Thread::ShouldReportStop() tid = 0x18471: returning vote  for complete stack's back plan
+ Thread::ShouldReportStop() tid = 0x1d230: returning vote  for complete stack's back plan
  Returning vote: no
  Returning no
  Process::ShouldBroadcastEvent: should_resume: 1 state: stopped was_restarted: 0 report_stop_vote: -1.
- Process::ShouldBroadcastEvent (0x7f842d7c1990) Restarting process from state: stopped
+ Process::ShouldBroadcastEvent (0x7f99892bbfc0) Restarting process from state: stopped
  Process::PrivateResume() m_stop_id = 3, public state: running private state: stopped
- WillResume Thread #1 (0x0x7f842d7c2178): tid = 0x18471, pc = 0x100011a89, sp = 0x7ff7bfefe910, fp = 0x7ff7bfefe9d0, plan = 'base plan', state = running, stop others = 0
+ WillResume Thread #1 (0x0x7f99892bb498): tid = 0x1d230, pc = 0x100011a89, sp = 0x7ff7bfefe910, fp = 0x7ff7bfefe9d0, plan = 'base plan', state = running, stop others = 0
  Process::SetPrivateState (running)
  Process thinks the process has resumed.
- Process::ShouldBroadcastEvent (0x7f842d7c1990) => new state: stopped, last broadcast state: running - NO
- Process::HandlePrivateEvent (pid = 4969) suppressing state stopped (old state running): should_broadcast == false
+ Process::ShouldBroadcastEvent (0x7f99892bbfc0) => new state: stopped, last broadcast state: running - NO
+ Process::HandlePrivateEvent (pid = 8036) suppressing state stopped (old state running): should_broadcast == false
  timeout = <infinite>, event_sp)...
- Process::ShouldBroadcastEvent (0x7f842e7a63b0) => new state: running, last broadcast state: running - NO
- Process::HandlePrivateEvent (pid = 4969) suppressing state running (old state running): should_broadcast == false
+ Process::ShouldBroadcastEvent (0x7f99871877e0) => new state: running, last broadcast state: running - NO
+ Process::HandlePrivateEvent (pid = 8036) suppressing state running (old state running): should_broadcast == false
  timeout = <infinite>, event_sp)...
  Process::SetPrivateState (stopped)
  Process::SetPrivateState (stopped) stop_id = 4
- 0x7f842d7c2178: tid = 0x18471: stop info = <NULL> (stop_id = 4)
- 0x7f842d7c2178: tid = 0x18471: stop info = shared-library-event (stop_id = 4)
+ 0x7f99892bb498: tid = 0x1d230: stop info = <NULL> (stop_id = 4)
+ 0x7f99892bb498: tid = 0x1d230: stop info = shared-library-event (stop_id = 4)
  
  ThreadList::ShouldStop: 1 threads, 1 unsuspended threads
- Thread::ShouldStop(0x7f842d7c2178) for tid = 0x18471 0x18471, pc = 0x0000000100011a88
+ Thread::ShouldStop(0x7f99892bb498) for tid = 0x1d230 0x1d230, pc = 0x0000000100011a88
  ^^^^^^^^ Thread::ShouldStop Begin ^^^^^^^^
  Plan stack initial state:
-  thread #1: tid = 0x18471:
+  thread #1: tid = 0x1d230:
     Active plan stack:
       Element 0: Base thread plan.
 
@@ -600,32 +598,32 @@
  StopInfo::ShouldStop async callback says we should not stop, returning ShouldStop of false.
  ThreadList::ShouldStop overall should_stop = 0
  ThreadList::ShouldReportStop 1 threads
- Thread::ShouldReportStop() tid = 0x18471: returning vote 0 for current plan
+ Thread::ShouldReportStop() tid = 0x1d230: returning vote 0 for current plan
  Returning no opinion
  Process::ShouldBroadcastEvent: should_resume: 1 state: stopped was_restarted: 0 report_stop_vote: 0.
- Process::ShouldBroadcastEvent (0x7f842e11bf80) Restarting process from state: stopped
+ Process::ShouldBroadcastEvent (0x7f9987315710) Restarting process from state: stopped
  Process::PrivateResume() m_stop_id = 4, public state: running private state: stopped
- Thread::PushPlan(0x0x7f842d7c2178): "Single stepping past breakpoint site 2 at 0x100011a88", tid = 0x18471.
- WillResume Thread #1 (0x0x7f842d7c2178): tid = 0x18471, pc = 0x100011a88, sp = 0x7ff7bfefe308, fp = 0x7ff7bfefe500, plan = 'Step over breakpoint trap', state = stepping, stop others = 1
+ Thread::PushPlan(0x0x7f99892bb498): "Single stepping past breakpoint site 2 at 0x100011a88", tid = 0x1d230.
+ WillResume Thread #1 (0x0x7f99892bb498): tid = 0x1d230, pc = 0x100011a88, sp = 0x7ff7bfefe308, fp = 0x7ff7bfefe500, plan = 'Step over breakpoint trap', state = stepping, stop others = 1
  GDBRemoteCommunicationClient::SendGDBStoppointTypePacket() remove at addr = 0x100011a88
  Process::SetPrivateState (running)
  Process thinks the process has resumed.
- Process::ShouldBroadcastEvent (0x7f842e11bf80) => new state: stopped, last broadcast state: running - NO
- Process::HandlePrivateEvent (pid = 4969) suppressing state stopped (old state running): should_broadcast == false
+ Process::ShouldBroadcastEvent (0x7f9987315710) => new state: stopped, last broadcast state: running - NO
+ Process::HandlePrivateEvent (pid = 8036) suppressing state stopped (old state running): should_broadcast == false
  timeout = <infinite>, event_sp)...
- Process::ShouldBroadcastEvent (0x7f842d7c6ca0) => new state: running, last broadcast state: running - NO
- Process::HandlePrivateEvent (pid = 4969) suppressing state running (old state running): should_broadcast == false
+ Process::ShouldBroadcastEvent (0x7f9987135550) => new state: running, last broadcast state: running - NO
+ Process::HandlePrivateEvent (pid = 8036) suppressing state running (old state running): should_broadcast == false
  timeout = <infinite>, event_sp)...
  Process::SetPrivateState (stopped)
  Process::SetPrivateState (stopped) stop_id = 5
- 0x7f842d7c2178: tid = 0x18471: stop info = <NULL> (stop_id = 5)
- 0x7f842d7c2178: tid = 0x18471: stop info = trace (stop_id = 5)
+ 0x7f99892bb498: tid = 0x1d230: stop info = <NULL> (stop_id = 5)
+ 0x7f99892bb498: tid = 0x1d230: stop info = trace (stop_id = 5)
  
  ThreadList::ShouldStop: 1 threads, 1 unsuspended threads
- Thread::ShouldStop(0x7f842d7c2178) for tid = 0x18471 0x18471, pc = 0x0000000100011a89
+ Thread::ShouldStop(0x7f99892bb498) for tid = 0x1d230 0x1d230, pc = 0x0000000100011a89
  ^^^^^^^^ Thread::ShouldStop Begin ^^^^^^^^
  Plan stack initial state:
-  thread #1: tid = 0x18471:
+  thread #1: tid = 0x1d230:
     Active plan stack:
       Element 0: Base thread plan.
       Element 1: Single stepping past breakpoint site 2 at 0x100011a88
@@ -635,9 +633,9 @@
  Completed step over breakpoint plan.
  GDBRemoteCommunicationClient::SendGDBStoppointTypePacket() add at addr = 0x100011a88
  Plan Step over breakpoint trap auto-continue: true.
- Popping plan: "Step over breakpoint trap", tid = 0x18471.
+ Popping plan: "Step over breakpoint trap", tid = 0x1d230.
  Plan stack final state:
-  thread #1: tid = 0x18471:
+  thread #1: tid = 0x1d230:
     Active plan stack:
       Element 0: Base thread plan.
     Completed plan stack:
@@ -646,58 +644,56 @@
  vvvvvvvv Thread::ShouldStop End (returning 0) vvvvvvvv
  ThreadList::ShouldStop overall should_stop = 0
  ThreadList::ShouldReportStop 1 threads
- Thread::ShouldReportStop() tid = 0x18471: returning vote  for complete stack's back plan
+ Thread::ShouldReportStop() tid = 0x1d230: returning vote  for complete stack's back plan
  Returning vote: no
  Returning no
  Process::ShouldBroadcastEvent: should_resume: 1 state: stopped was_restarted: 0 report_stop_vote: -1.
- Process::ShouldBroadcastEvent (0x7f842e77c7e0) Restarting process from state: stopped
+ Process::ShouldBroadcastEvent (0x7f9987315840) Restarting process from state: stopped
  Process::PrivateResume() m_stop_id = 5, public state: running private state: stopped
- WillResume Thread #1 (0x0x7f842d7c2178): tid = 0x18471, pc = 0x100011a89, sp = 0x7ff7bfefe300, fp = 0x7ff7bfefe500, plan = 'base plan', state = running, stop others = 0
+ WillResume Thread #1 (0x0x7f99892bb498): tid = 0x1d230, pc = 0x100011a89, sp = 0x7ff7bfefe300, fp = 0x7ff7bfefe500, plan = 'base plan', state = running, stop others = 0
  Process::SetPrivateState (running)
  Process thinks the process has resumed.
- Process::ShouldBroadcastEvent (0x7f842e77c7e0) => new state: stopped, last broadcast state: running - NO
- Process::HandlePrivateEvent (pid = 4969) suppressing state stopped (old state running): should_broadcast == false
+ Process::ShouldBroadcastEvent (0x7f9987315840) => new state: stopped, last broadcast state: running - NO
+ Process::HandlePrivateEvent (pid = 8036) suppressing state stopped (old state running): should_broadcast == false
  timeout = <infinite>, event_sp)...
- Process::ShouldBroadcastEvent (0x7f842e7a6ff0) => new state: running, last broadcast state: running - NO
- Process::HandlePrivateEvent (pid = 4969) suppressing state running (old state running): should_broadcast == false
+ Process::ShouldBroadcastEvent (0x7f9987135550) => new state: running, last broadcast state: running - NO
+ Process::HandlePrivateEvent (pid = 8036) suppressing state running (old state running): should_broadcast == false
  timeout = <infinite>, event_sp)...
  Process::SetPrivateState (stopped)
  Process::SetPrivateState (stopped) stop_id = 6
- 0x7f842d7c2178: tid = 0x18471: stop info = <NULL> (stop_id = 6)
- 0x7f842d7c2178: tid = 0x18471: stop info = breakpoint 1.1 (stop_id = 6)
+ 0x7f99892bb498: tid = 0x1d230: stop info = <NULL> (stop_id = 6)
+ 0x7f99892bb498: tid = 0x1d230: stop info = breakpoint 1.1 (stop_id = 6)
  
  ThreadList::ShouldStop: 1 threads, 1 unsuspended threads
- Thread::ShouldStop(0x7f842d7c2178) for tid = 0x18471 0x18471, pc = 0x0000000100003f6f
+ Thread::ShouldStop(0x7f99892bb498) for tid = 0x1d230 0x1d230, pc = 0x0000000100003ef0
  ^^^^^^^^ Thread::ShouldStop Begin ^^^^^^^^
  Plan stack initial state:
-  thread #1: tid = 0x18471:
+  thread #1: tid = 0x1d230:
     Active plan stack:
       Element 0: Base thread plan.
 
  Hit breakpoint location: 1.1: 
-  module = /Users/yashwanthprakash/Desktop/SEM 2/TERM 1/PSC/c_activites_sets/set01/problem01
-  compile unit = problem01.c
-  function = main
-  location = /Users/yashwanthprakash/Desktop/SEM 1/c_activites_sets/set01/problem01.c:6:5
-  address = 0x0000000100003f6f
+  module = /Users/yashwanthprakash/Desktop/SEM 2/TERM 1/PSC/c_activites_sets/set01/problem09
+  symbol = main
+  address = 0x0000000100003ef0
   resolved = true
   hardware = false
   hit count = 1   
 , stopping.
 
- Base plan discarding thread plans for thread tid = 0x18471 (breakpoint hit.)
- Discarding thread plans for thread (tid = 0x18471, force 0)
+ Base plan discarding thread plans for thread tid = 0x1d230 (breakpoint hit.)
+ Discarding thread plans for thread (tid = 0x1d230, force 0)
  Base plan says should stop: 1.
  Plan stack final state:
-  thread #1: tid = 0x18471:
+  thread #1: tid = 0x1d230:
     Active plan stack:
       Element 0: Base thread plan.
 
  vvvvvvvv Thread::ShouldStop End (returning 1) vvvvvvvv
  ThreadList::ShouldStop overall should_stop = 1
  Frame #0 not recognized
- Process::ShouldBroadcastEvent (0x7f842e11e500) => new state: stopped, last broadcast state: stopped - YES
- Process::HandlePrivateEvent (pid = 4969) broadcasting new state stopped (old state running) to public
+ Process::ShouldBroadcastEvent (0x7f9987333cb0) => new state: stopped, last broadcast state: stopped - YES
+ Process::HandlePrivateEvent (pid = 8036) broadcasting new state stopped (old state running) to public
  timeout = <infinite>, event_sp)...
  Process::SetPublicState (state = stopped, restarted = 0)
  Process::SetPublicState (stopped) -- unlocking run lock
@@ -708,17 +704,16 @@
  HandleCommand, wants_raw_input:'False'
  HandleCommand, command line after removing command name(s): ''
  HandleCommand, command did not succeed
- Discarding thread plans for thread (tid = 0x18471, force 1)
- GDBRemoteCommunicationClient::SendGDBStoppointTypePacket() remove at addr = 0x100003f6f
+ Discarding thread plans for thread (tid = 0x1d230, force 1)
+ GDBRemoteCommunicationClient::SendGDBStoppointTypePacket() remove at addr = 0x100003ef0
  GDBRemoteCommunicationClient::SendGDBStoppointTypePacket() remove at addr = 0x100011a88
- ::waitpid (pid = 4969, &status, 0) => pid = 4969, status = 0x00000009 (SIGNALED), signal = 9, exit_status = -1
- pid = 4969, exited = true, signal = 9, status = -1
+ ::waitpid (pid = 8036, &status, 0) => pid = 8036, status = 0x00000009 (SIGNALED), signal = 9, exit_status = -1
+ pid = 8036, exited = true, signal = 9, status = -1
  Process::SetExitStatus (status=9 (0x00000009), description="")
  Process::ControlPrivateStateThread (signal = 1)
  Sending control event of type: 1.
- ::waitpid (pid = 4970, &status, 0) => pid = 4970, status = 0x00000000 (EXITED), signal = 0, exit_status = 0
- Process::RunPrivateStateThread (arg = 0x7f8430620418, pid = 4969) got a control event: 1
- Process::RunPrivateStateThread (arg = 0x7f8430620418, pid = 4969) thread exiting...
+ Process::RunPrivateStateThread (arg = 0x7f9986d08e18, pid = 8036) got a control event: 1
+ Process::RunPrivateStateThread (arg = 0x7f9986d08e18, pid = 8036) thread exiting...
  Target::RemoveBreakpointByID (break_id = -1, internal = yes)
 
  Target::DisableBreakpointByID (break_id = -1, internal = yes)
@@ -731,3 +726,4 @@
 
  Went to stop the private state thread, but it was already invalid.
  Couldn't get scratch TypeSystemClang
+ ::waitpid (pid = 8037, &status, 0) => pid = 8037, status = 0x00000002 (SIGNALED), signal = 2, exit_status = -1
