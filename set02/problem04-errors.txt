@@ -1,0 +1,22 @@
+(base) yashwanthprakash@Yashwanths-MacBook-Air set02 % gcc problem04.c
+(base) yashwanthprakash@Yashwanths-MacBook-Air set02 % lldb ./problem04
+(lldb) target create "./problem04"
+Current executable set to '/Users/yashwanthprakash/Desktop/SEM 2/TERM 1/PSC/c_activites_sets/set02/problem04' (x86_64).
+(lldb) log enable lldb default -f problem04.log
+(lldb) b main
+Breakpoint 1: where = problem04`main + 29 at problem04.c:12:9, address = 0x0000000100003c9d
+(lldb) r
+Process 16677 launched: '/Users/yashwanthprakash/Desktop/SEM 2/TERM 1/PSC/c_activites_sets/set02/problem04' (x86_64)
+Process 16677 stopped
+* thread #1, queue = 'com.apple.main-thread', stop reason = breakpoint 1.1
+    frame #0: 0x0000000100003c9d problem04`main at problem04.c:12:9
+   9    int main() 
+   10   {
+   11       int n, sum;
+-> 12       n = input_array_size();
+   13       int a[n];
+   14       input_array(n, a);
+   15       sum = sum_composite_numbers(n, a);
+Target 0: (problem04) stopped.
+(lldb) q
+Quitting LLDB will kill one or more processes. Do you really want to proceed: [Y/n] y
