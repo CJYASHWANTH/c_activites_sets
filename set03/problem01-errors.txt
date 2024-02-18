@@ -1,0 +1,22 @@
+(base) yashwanthprakash@Yashwanths-MacBook-Air set03 % gcc problem01.c
+(base) yashwanthprakash@Yashwanths-MacBook-Air set03 % lldb ./problem01
+(lldb) target create "./problem01"
+Current executable set to '/Users/yashwanthprakash/Desktop/SEM 2/TERM 1/PSC/c_activites_sets/set03/problem01' (x86_64).
+(lldb) log enable lldb default -f problem01.log
+(lldb) b main
+Breakpoint 1: where = problem01`main + 15 at problem01.c:10:5, address = 0x0000000100003cff
+(lldb) r
+Process 19414 launched: '/Users/yashwanthprakash/Desktop/SEM 2/TERM 1/PSC/c_activites_sets/set03/problem01' (x86_64)
+Process 19414 stopped
+* thread #1, queue = 'com.apple.main-thread', stop reason = breakpoint 1.1
+    frame #0: 0x0000000100003cff problem01`main at problem01.c:10:5
+   7    int main() 
+   8    {
+   9        float x1, y1, x2, y2, distance;
+-> 10       input(&x1, &y1, &x2, &y2);
+   11       distance = find_distance(x1, y1, x2, y2);
+   12       output(x1, y1, x2, y2, distance);
+   13       return 0;
+Target 0: (problem01) stopped.
+(lldb) q
+Quitting LLDB will kill one or more processes. Do you really want to proceed: [Y/n] y
