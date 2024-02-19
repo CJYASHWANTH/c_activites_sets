@@ -1,0 +1,23 @@
+(base) yashwanthprakash@Yashwanths-MacBook-Air set03 % gcc problem02.c
+(base) yashwanthprakash@Yashwanths-MacBook-Air set03 % 
+(base) yashwanthprakash@Yashwanths-MacBook-Air set03 % lldb ./problem02
+(lldb) target create "./problem02"
+Current executable set to '/Users/yashwanthprakash/Desktop/SEM 2/TERM 1/PSC/c_activites_sets/set03/problem02' (x86_64).
+(lldb) log enable lldb default -f problem02.log
+(lldb) b main
+Breakpoint 1: where = problem02`main + 15 at problem02.c:10:5, address = 0x0000000100003b3f
+(lldb) r
+Process 19833 launched: '/Users/yashwanthprakash/Desktop/SEM 2/TERM 1/PSC/c_activites_sets/set03/problem02' (x86_64)
+Process 19833 stopped
+* thread #1, queue = 'com.apple.main-thread', stop reason = breakpoint 1.1
+    frame #0: 0x0000000100003b3f problem02`main at problem02.c:10:5
+   7    {
+   8        float x1, y1, x2, y2, x3, y3;
+   9        int result;
+-> 10       input_triangle(&x1, &y1, &x2, &y2, &x3, &y3);
+   11       result = is_triangle(x1, y1, x2, y2, x3, y3);
+   12       output(x1, y1, x2, y2, x3, y3, result);
+   13       return 0;
+Target 0: (problem02) stopped.
+(lldb) q
+Quitting LLDB will kill one or more processes. Do you really want to proceed: [Y/n] y
