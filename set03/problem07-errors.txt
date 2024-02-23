@@ -1,0 +1,22 @@
+(base) yashwanthprakash@Yashwanths-MacBook-Air set03 % gcc problem07.c
+(base) yashwanthprakash@Yashwanths-MacBook-Air set03 % lldb ./problem07
+(lldb) target create "./problem07"
+Current executable set to '/Users/yashwanthprakash/Desktop/SEM 2/TERM 1/PSC/c_activites_sets/set03/problem07' (x86_64).
+(lldb) log enable lldb default -f problem07.log
+(lldb) b main
+Breakpoint 1: where = problem07`main + 15 at problem07.c:40:17, address = 0x0000000100003ebf
+(lldb) r
+Process 7272 launched: '/Users/yashwanthprakash/Desktop/SEM 2/TERM 1/PSC/c_activites_sets/set03/problem07' (x86_64)
+Process 7272 stopped
+* thread #1, queue = 'com.apple.main-thread', stop reason = breakpoint 1.1
+    frame #0: 0x0000000100003ebf problem07`main at problem07.c:40:17
+   37   }
+   38   int main()
+   39   {
+-> 40       Line line = input_line();
+   41       find_length(&line);
+   42       output(line);
+   43       return 0;
+Target 0: (problem07) stopped.
+(lldb) q
+Quitting LLDB will kill one or more processes. Do you really want to proceed: [Y/n] y
