@@ -8,7 +8,9 @@ return num;
 }
 int add(int a, int b)
 {
-    return (a+b);
+    int sum;
+    sum = a+b;
+    return sum;
 }
 void output(int a, int b, int sum)
 {
